@@ -192,12 +192,26 @@ nav li a.selected {
     margin-top: 30px;
 }
 
+.contact-form-name-header {
+    margin-bottom: 8px;
+}
+
 .contact-form-email-address-header {
+    margin-top: 24px;
     margin-bottom: 8px;
 }
 
 .contact-form-message-header {
     margin-top: 24px;
+}
+
+.contact-form input[type=text], select {
+    font-size: 100%;
+    width: 100%;
+    padding: 12px 8px;
+    margin: 0;
+    border: 1px solid #6D6D72;
+    border-radius: 4px;
 }
 
 .contact-form input[type=email], select {
@@ -314,6 +328,10 @@ footer {
     
     
     /* Contact */
+    
+    .contact-form input[type=text], select {
+        border: 1px solid #838388;
+    }
     
     .contact-form input[type=email], select {
         border: 1px solid #838388;
