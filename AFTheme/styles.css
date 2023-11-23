@@ -10,8 +10,8 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, system-ui, Helvetica, Arial;
     text-align: center;
-    background: #fff;
-    color: #1D1D1F;
+    background: #ffffff;
+    color: #1d1d1f;
 }
 
 .wrapper {
@@ -26,8 +26,7 @@ body {
 /* Text */
 
 h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -35,31 +34,61 @@ h2 {
 }
 
 h3 {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 h4 {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 p {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 a {
     text-decoration: none;
-    color: #30B0C7;
+    color: #30b0c7;
 }
 
-.description {
-    margin-bottom: 40px;
+a:hover {
+    text-decoration: underline;
+}
+
+.text-secondary {
+    color: #8c8c8c !important;
+}
+
+
+/* Buttons */
+
+.standard-button-container {
+    text-align: center;
+}
+
+.standard-button {
+    display: inline-flex;
+    font-weight: 400;
+    text-align: center;
+    line-height: 36px;
+    color: #ffffff;
+    background: #30B0C7;
+    padding: 0 20px;
+    min-width: 48px;
+    height: 36px;
+    border-radius: 18px;
+}
+
+.standard-button:hover {
+    text-decoration: none;
+    background: #95D9E5;
+    transition: 0.7s;
 }
 
 
 /* Header */
 
 header {
-    background: #f5f5f7;
+    background: #f3f3f3;
 }
 
 header .wrapper {
@@ -84,15 +113,16 @@ nav li {
 }
 
 nav li a {
-    color: #1D1D1F;
+    color: #303030;
 }
 
 nav li a:hover {
-    color: #69696b;
+    text-decoration: none;
+    color: #616161;
 }
 
 nav li a.selected {
-    color: #69696b;
+    color: #616161;
 }
 
 
@@ -110,28 +140,95 @@ nav li a.selected {
     font-size: 40px;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 12px;
 }
 
 .home-subtitle {
     font-size: 22px;
     font-weight: 400;
     text-align: center;
-    color: #6D6D72;
     margin-bottom: 60px;
 }
 
 
 /* Apps */
 
-.app-group {
-    margin: 40px 0;
-    padding: 20px 0;
+/* Apps Page */
+
+#apps-page h3 {
+    margin-bottom: 24px;
+}
+
+
+/* App Row */
+
+.app-row {
     padding-right: 160px;
+    margin-bottom: 48px;
     overflow: hidden;
 }
 
-.app-group h2 {
-    margin: 0 0 8px 0;
+
+/* App Page */
+
+.app-header {
+    text-align: center;
+    margin-bottom: 48px;
+    overflow: hidden;
+}
+
+#app-page h1 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.app-info-section {
+    margin-bottom: 48px;
+}
+
+#app-page .download-badge {
+    margin-top: 24px;
+}
+
+
+/* App Details */
+
+.app-details-column {
+    margin-right: -140px;
+    width: 100%;
+    float: right;
+}
+
+.app-row .app-details-column {
+    margin-right: -140px;
+}
+
+#app-page .app-details-column {
+    margin-right: -120px;
+}
+
+.app-description {
+    margin-bottom: 20px;
+}
+
+.app-featured-links {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.app-featured-links a {
+    color: inherit;
+}
+
+.app-featured-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* App Icon */
+
+.app-icon {
+    border: 1px solid #d2d2d7;
 }
 
 .app-icon-column {
@@ -139,120 +236,130 @@ nav li a.selected {
     float: left;
 }
 
-.app-contents-column {
-    width: 100%;
-    margin: 0 -140px 0 auto;
-    float: right;
-}
-
-.app-icon {
+.app-row .app-icon {
     width: 100px;
     height: 100px;
     border-radius: 24px;
-    border: 1px solid #EEEEEE;
 }
+
+#app-page .app-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 26px;
+}
+
+
+/* Download Button */
 
 .download-badge {
     width: auto;
-    height: 40px;
-    margin-top: 12px;
-}
-
-.app-button-container {
-    text-align: center;
-}
-
-.app-button {
-    font-weight: 500;
-    cursor: pointer;
-    background: #30B0C7;
-    color: white;
-    padding: 15px 100px;
-    border: none;
-    border-radius: 4px;
+    height: 48px;
 }
 
 
 /* About */
+
+#about-page h2 {
+    margin-bottom: 20px;
+}
 
 .about-section {
     margin-bottom: 40px;
 }
 
 .about-minor-section {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
+}
+
+.about-experience-title {
+    margin-bottom: 16px;
 }
 
 
 /* Contact */
 
-.contact-form {
-    width: 60%;
-    margin-top: 30px;
+#contact-form {
+    margin: 28px auto 28px auto;
 }
 
-.contact-form-name-header {
-    margin-bottom: 8px;
+.contact-form-row {
+    display: flex;
+    margin-bottom: 16px;
+    margin-right: 120px;
 }
 
-.contact-form-email-address-header {
-    margin-top: 24px;
-    margin-bottom: 8px;
+.contact-form-field-title {
+    text-align: right;
+    line-height: 44px;
+    width: 120px;
+    height: 44px;
+    margin-right: 16px;
 }
 
-.contact-form-message-header {
-    margin-top: 24px;
-}
-
-.contact-form input[type=text], select {
+#contact-form input[type=text], select {
     font-size: 100%;
+    color: #1d1d1f;
     width: 100%;
+    height: 44px;
     padding: 12px 8px;
     margin: 0;
-    border: 1px solid #6D6D72;
-    border-radius: 4px;
+    border: 1px solid #d2d2d7;
+    border-radius: 6px;
 }
 
-.contact-form input[type=email], select {
+#contact-form input[type=email], select {
     font-size: 100%;
+    color: #1d1d1f;
     width: 100%;
+    height: 44px;
     padding: 12px 8px;
     margin: 0;
-    border: 1px solid #6D6D72;
-    border-radius: 4px;
+    border: 1px solid #d2d2d7;
+    border-radius: 6px;
 }
 
-.contact-form textarea {
+#contact-form textarea {
     font-size: 100%;
+    color: #1d1d1f;
     resize: none;
     width: 100%;
     height: 150px;
     padding: 12px 8px;
     margin: 0;
-    border: 1px solid #6D6D72;
-    border-radius: 4px;
+    border: 1px solid #d2d2d7;
+    border-radius: 6px;
 }
 
-.contact-form input[type=submit] {
+#contact-form input[type=submit] {
     font-family: -apple-system, BlinkMacSystemFont, system-ui, Helvetica, Arial;
     font-size: 100%;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 36px;
     cursor: pointer;
-    background: #30B0C7;
-    color: white;
-    padding: 15px 60px;
-    margin-top: 20px;
+    color: #ffffff;
+    background: #30b0c7;
+    padding: 0 20px;
+    min-width: 48px;
+    height: 36px;
     border: none;
-    border-radius: 4px;
+    border-radius: 18px;
     -webkit-appearance: none;
+    margin-top: 8px;
+    margin-right: 120px;
+    float: right;
+}
+
+#contact-form input[type=submit]:hover {
+    background: #95d9e5;
+    transition: 0.7s;
 }
 
 
 /* Footer */
 
 footer {
-    background: #F5F5F7;
-    color: #6D6D72;
+    color: #79797b;
+    background: #f3f3f3;
     padding: 40px 0;
     margin-top: 20px;
 }
@@ -265,18 +372,34 @@ footer {
     /* General */
     
     body {
-        background: #000;
-        color: #F5F5F7;
+        background: #000000;
+        color: #f5f5f7;
     }
     
     
     /* Text */
     
     a {
-        color: #40C8E0;
+        color: #40c8e0;
     }
     
-    
+    .text-secondary {
+        color: #a5a5a5 !important;
+    }
+
+
+    /* Buttons */
+
+    .standard-button {
+        background: #40c8e0;
+    }
+
+    .standard-button:hover {
+        background: #9fe3ef;
+        transition: 0.7s;
+    }
+
+
     /* Header */
     
     header .site-logo {
@@ -288,60 +411,51 @@ footer {
     }
     
     nav li {
-        color: #F5F5F7;
+        color: #cacacc;
     }
     
     nav li a {
-        color: #F5F5F7;
+        color: #cacacc;
     }
     
     nav li a:hover {
-        color: #a9a9ab;
+        color: #9f9fa1;
     }
     
     nav li a.selected {
-        color: #a9a9ab;
-    }
-    
-    
-    /* Home */
-    
-    .home-subtitle {
-        color: #838388;
+        color: #9f9fa1;
     }
     
     
     /* Apps */
-    
+
+    /* App Icon */
+
     .app-icon {
         border: 1px solid #222222;
-    }
-
-    .app-button {
-        background: #40C8E0;
     }
     
     
     /* Contact */
     
-    .contact-form input[type=text], select {
+    #contact-form input[type=text], select {
         border: 1px solid #838388;
     }
     
-    .contact-form input[type=email], select {
+    #contact-form input[type=email], select {
         border: 1px solid #838388;
     }
     
-    .contact-form input[type=submit] {
-        background: #40C8E0;
+    #contact-form input[type=submit] {
+        background: #40c8e0;
     }
     
     
     /* Footer */
     
     footer {
-        background: #1D1D1F;
-        color: #838388;
+        background: #1d1d1f;
+        color: #57575c;
     }
 }
 
