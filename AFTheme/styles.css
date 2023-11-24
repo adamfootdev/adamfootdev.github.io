@@ -167,7 +167,6 @@ nav li a.selected {
 /* App Row */
 
 .app-row {
-    padding-right: 160px;
     margin-bottom: 48px;
     overflow: hidden;
 }
@@ -212,17 +211,8 @@ nav li a.selected {
 /* App Details */
 
 .app-details-column {
-    margin-right: -140px;
-    width: 100%;
+    width: calc(100% - 140px);
     float: right;
-}
-
-.app-row .app-details-column {
-    margin-right: -140px;
-}
-
-#app-page .app-details-column {
-    margin-right: -120px;
 }
 
 .app-description {
@@ -252,6 +242,7 @@ nav li a.selected {
 .app-icon-column {
     width: 100px;
     float: left;
+    margin-right: 40px;
 }
 
 .app-row .app-icon {
@@ -488,7 +479,25 @@ footer {
         padding: 40px 20px;
     }
     
-    
+
+    /* Apps */
+
+    .app-details-column {
+        width: calc(100% - 80px);
+    }
+
+    .app-icon-column {
+        width: 60px;
+        margin-right: 20px;
+    }
+
+    .app-row .app-icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+    }
+
+
     /* Contact */
     #contact-form {
         width: 100%;
