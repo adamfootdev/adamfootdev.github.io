@@ -364,6 +364,13 @@ nav li a.selected {
 }
 
 
+/* Not Found */
+
+#not-found-page .standard-button {
+    margin-top: 40px;
+}
+
+
 /* Footer */
 
 footer {
