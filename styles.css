@@ -12,6 +12,7 @@ body {
     text-align: center;
     background: #ffffff;
     color: #1d1d1f;
+    white-space: pre-line;
 }
 
 .wrapper {
@@ -38,11 +39,13 @@ h3 {
 }
 
 h4 {
-    margin-bottom: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
 }
 
 p {
     margin-bottom: 12px;
+    line-height: 1.6;
 }
 
 a {
@@ -55,6 +58,11 @@ a:hover {
 }
 
 .text-secondary {
+    color: #8c8c8c !important;
+}
+
+.secondary-paragraph {
+    font-size: 90%;
     color: #8c8c8c !important;
 }
 
@@ -157,10 +165,29 @@ nav li a.selected {
 
 /* Apps */
 
+.app-info-section {
+    margin-bottom: 28px;
+}
+
+.app-feature-row {
+    margin-bottom: 20px;
+}
+
+
 /* Apps Page */
 
 #apps-page h3 {
     margin-bottom: 24px;
+}
+
+#apps-page-footer {
+    display: inline-flex;
+/*    float: center;*/
+/*    text-align: center;*/
+}
+
+#apps-page-footer .standard-button {
+    margin-left: 20px;
 }
 
 
@@ -182,6 +209,18 @@ nav li a.selected {
 }
 
 
+/* Project Row */
+
+.project-row {
+    margin-bottom: 48px;
+    overflow: hidden;
+}
+
+.project-row .standard-button {
+    float: left;
+}
+
+
 /* App Page */
 
 #app-page #app-header {
@@ -197,10 +236,6 @@ nav li a.selected {
 
 #app-page-title {
     margin-bottom: 24px;
-}
-
-.app-info-section {
-    margin-bottom: 48px;
 }
 
 #app-page .app-icon {
@@ -285,6 +320,53 @@ nav li a.selected {
 }
 
 
+/* App Press Kit */
+
+#app-press-kit-page #app-header {
+    text-align: center;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+#app-press-kit-page h1 {
+    margin-top: 20px;
+}
+
+#app-press-kit-page h3 {
+    margin-top: 28px;
+}
+
+#app-press-kit-page .app-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 26px;
+}
+
+
+/* App Releases */
+
+#app-releases-page #app-header {
+    text-align: center;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+#app-releases-page h1 {
+    margin-top: 20px;
+}
+
+#app-releases-page h3 {
+    margin-top: 28px;
+    margin-bottom: 0px;
+}
+
+#app-releases-page .app-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 26px;
+}
+
+
 /* App Icon */
 
 .app-icon {
@@ -326,6 +408,10 @@ nav li a.selected {
 }
 
 .about-experience-title {
+    margin-bottom: 8px;
+}
+
+.about-experience-subtitle {
     margin-bottom: 16px;
 }
 
@@ -435,13 +521,25 @@ nav li a.selected {
 }
 
 
+/* Press */
+
+#press-page h3 {
+    margin-top: 28px;
+}
+
+
 /* Footer */
 
 footer {
     color: #79797b;
     background: #f3f3f3;
-    padding: 40px 0;
+    padding-top: 20px;
+    padding-bottom: 8px;
     margin-top: 20px;
+}
+
+footer p {
+    font-size: 90%;
 }
 
 
@@ -464,6 +562,10 @@ footer {
     }
     
     .text-secondary {
+        color: #a5a5a5 !important;
+    }
+
+    .secondary-paragraph {
         color: #a5a5a5 !important;
     }
 
