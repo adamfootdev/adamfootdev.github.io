@@ -17,7 +17,7 @@ body {
 
 .wrapper {
     text-align: left;
-    max-width: 900px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
@@ -386,6 +386,98 @@ nav li a.selected {
 }
 
 
+/* Images */
+
+.image-scroll-container {
+    overflow-x: visible;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 20px;
+}
+
+.image-scroll-container .screenshot-image {
+    border-radius: 16px;
+    margin: 8px;
+    height: 400px;
+}
+
+.downloadable-image-container {
+    display: inline-block;
+}
+
+.downloadable-image {
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.downloadable-image-overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: sticky;
+    margin-top: -220px;
+    margin-bottom: 200px;
+    text-align: center;
+    z-index: 100;
+}
+
+.downloadable-app-icon-overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: sticky;
+    margin-top: -75px;
+    margin-bottom: 40px;
+    text-align: center;
+    z-index: 100;
+}
+
+.downloadable-image-container:hover .downloadable-image {
+    opacity: 0.2;
+}
+
+.downloadable-image-container:hover .downloadable-image-overlay {
+    opacity: 1;
+}
+
+.downloadable-image-container:hover .downloadable-app-icon-overlay {
+    opacity: 1;
+}
+
+.image-scroll-container .main-app-icon {
+    border: 1px solid #d2d2d7;
+    border-radius: 24px;
+    margin: 8px;
+    height: 100px;
+}
+
+.image-scroll-container .mac-app-icon {
+    margin: 8px;
+    height: 100px;
+}
+
+.image-scroll-container .tv-app-icon {
+    border: 1px solid #d2d2d7;
+    border-radius: 24px;
+    margin: 8px;
+    height: 100px;
+}
+
+.image-scroll-container .vision-app-icon {
+    border: 1px solid #d2d2d7;
+    border-radius: 50px;
+    margin: 8px;
+    height: 100px;
+}
+
+.image-scroll-container .watch-app-icon {
+    border: 1px solid #d2d2d7;
+    border-radius: 50px;
+    margin: 8px;
+    height: 100px;
+}
+
+
 /* Download Button */
 
 .download-button {
@@ -616,7 +708,23 @@ footer p {
     .app-icon {
         border: 1px solid #222222;
     }
-    
+
+    .main-app-icon {
+        border: 1px solid #222222;
+    }
+
+    .tv-app-icon {
+        border: 1px solid #222222;
+    }
+
+    .vision-app-icon {
+        border: 1px solid #222222;
+    }
+
+    .watch-app-icon {
+        border: 1px solid #222222;
+    }
+
     
     /* Contact */
     
