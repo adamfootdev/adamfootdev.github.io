@@ -779,6 +779,18 @@ footer p {
     }
 
 
+    /* Images */
+
+    .image-scroll-container .screenshot-image {
+        height: 280px;
+    }
+
+    .downloadable-image-overlay {
+        margin-top: -160px;
+        margin-bottom: 140px;
+    }
+
+
     /* Contact */
     #contact-form {
         width: 100%;
