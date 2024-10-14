@@ -385,6 +385,12 @@ nav li a.selected {
     border-radius: 24px;
 }
 
+.project-row .app-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 24px;
+}
+
 
 /* Images */
 
