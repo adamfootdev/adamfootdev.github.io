@@ -50,7 +50,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #30b0c7;
+    color: #1E5E55;
 }
 
 a:hover {
@@ -79,7 +79,7 @@ a:hover {
     text-align: center;
     line-height: 36px;
     color: #ffffff;
-    background: #30B0C7;
+    background: #1E5E55;
     padding: 0 20px;
     min-width: 48px;
     height: 36px;
@@ -576,7 +576,7 @@ nav li a.selected {
     line-height: 36px;
     cursor: pointer;
     color: #ffffff;
-    background: #30b0c7;
+    background: #1E5E55;
     padding: 0 20px;
     min-width: 48px;
     height: 36px;
@@ -656,7 +656,7 @@ footer p {
     /* Text */
     
     a {
-        color: #40c8e0;
+        color: #1E5E55;
     }
     
     .text-secondary {
@@ -671,7 +671,7 @@ footer p {
     /* Buttons */
 
     .standard-button {
-        background: #40c8e0;
+        background: #1E5E55;
     }
 
     .standard-button:hover {
@@ -743,7 +743,7 @@ footer p {
     }
     
     #contact-form input[type=submit] {
-        background: #40c8e0;
+        background: #1E5E55;
     }
     
     
