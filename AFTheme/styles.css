@@ -50,7 +50,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #1E5E55;
+    color: #539389;
 }
 
 a:hover {
@@ -88,7 +88,7 @@ a:hover {
 
 .standard-button:hover {
     text-decoration: none;
-    background: #95D9E5;
+    background: #8EAEAA;
     transition: 0.7s;
 }
 
@@ -241,6 +241,11 @@ nav li a.selected {
 #app-page .app-icon {
     width: 120px;
     height: 120px;
+}
+
+#app-page .app-icon-cropped {
+    width: 120px;
+    height: 120px;
     border-radius: 26px;
 }
 
@@ -293,6 +298,11 @@ nav li a.selected {
 #app-privacy-policy-page .app-icon {
     width: 120px;
     height: 120px;
+}
+
+#app-privacy-policy-page .app-icon-cropped {
+    width: 120px;
+    height: 120px;
     border-radius: 26px;
 }
 
@@ -319,6 +329,11 @@ nav li a.selected {
     border-radius: 26px;
 }
 
+#app-terms-of-use-page .app-icon-cropped {
+    width: 120px;
+    height: 120px;
+}
+
 
 /* App Press Kit */
 
@@ -337,6 +352,11 @@ nav li a.selected {
 }
 
 #app-press-kit-page .app-icon {
+    width: 120px;
+    height: 120px;
+}
+
+#app-press-kit-page .app-icon-cropped {
     width: 120px;
     height: 120px;
     border-radius: 26px;
@@ -363,13 +383,18 @@ nav li a.selected {
 #app-releases-page .app-icon {
     width: 120px;
     height: 120px;
+}
+
+#app-releases-page .app-icon-cropped {
+    width: 120px;
+    height: 120px;
     border-radius: 26px;
 }
 
 
 /* App Icon */
 
-.app-icon {
+.app-icon-cropped {
     border: 1px solid #d2d2d7;
 }
 
@@ -382,10 +407,20 @@ nav li a.selected {
 .app-row .app-icon {
     width: 100px;
     height: 100px;
-    border-radius: 24px;
 }
 
 .project-row .app-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.app-row .app-icon-cropped {
+    width: 100px;
+    height: 100px;
+    border-radius: 24px;
+}
+
+.project-row .app-icon-cropped {
     width: 100px;
     height: 100px;
     border-radius: 24px;
@@ -451,32 +486,37 @@ nav li a.selected {
 }
 
 .image-scroll-container .main-app-icon {
+    margin: 8px;
+    height: 100px;
+}
+
+.image-scroll-container .main-app-icon-cropped {
     border: 1px solid #d2d2d7;
     border-radius: 24px;
     margin: 8px;
     height: 100px;
 }
 
-.image-scroll-container .mac-app-icon {
+.image-scroll-container .mac-app-icon-cropped {
     margin: 8px;
     height: 100px;
 }
 
-.image-scroll-container .tv-app-icon {
+.image-scroll-container .tv-app-icon-cropped {
     border: 1px solid #d2d2d7;
     border-radius: 24px;
     margin: 8px;
     height: 100px;
 }
 
-.image-scroll-container .vision-app-icon {
+.image-scroll-container .vision-app-icon-cropped {
     border: 1px solid #d2d2d7;
     border-radius: 50px;
     margin: 8px;
     height: 100px;
 }
 
-.image-scroll-container .watch-app-icon {
+.image-scroll-container .watch-app-icon-cropped {
     border: 1px solid #d2d2d7;
     border-radius: 50px;
     margin: 8px;
@@ -589,10 +629,9 @@ nav li a.selected {
 }
 
 #contact-form input[type=submit]:hover {
-    background: #95d9e5;
+    background: #8EAEAA;
     transition: 0.7s;
 }
-
 
 /* Not Found */
 
@@ -656,7 +695,7 @@ footer p {
     /* Text */
     
     a {
-        color: #1E5E55;
+        color: #539389;
     }
     
     .text-secondary {
@@ -675,7 +714,7 @@ footer p {
     }
 
     .standard-button:hover {
-        background: #9fe3ef;
+        background: #8EAEAA;
         transition: 0.7s;
     }
 
@@ -711,23 +750,23 @@ footer p {
 
     /* App Icon */
 
-    .app-icon {
+    .app-icon-cropped {
         border: 1px solid #222222;
     }
 
-    .main-app-icon {
+    .main-app-icon-cropped {
         border: 1px solid #222222;
     }
 
-    .tv-app-icon {
+    .tv-app-icon-cropped {
         border: 1px solid #222222;
     }
 
-    .vision-app-icon {
+    .vision-app-icon-cropped {
         border: 1px solid #222222;
     }
 
-    .watch-app-icon {
+    .watch-app-icon-cropped {
         border: 1px solid #222222;
     }
 
@@ -745,7 +784,11 @@ footer p {
     #contact-form input[type=submit] {
         background: #1E5E55;
     }
-    
+
+    #contact-form input[type=submit]:hover {
+        background: #8EAEAA;
+    }
+
     
     /* Footer */
     
@@ -781,10 +824,20 @@ footer p {
     .app-row .app-icon {
         width: 60px;
         height: 60px;
-        border-radius: 12px;
     }
 
     .project-row .app-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .app-row .app-icon-cropped {
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+    }
+
+    .project-row .app-icon-cropped {
         width: 60px;
         height: 60px;
         border-radius: 12px;
