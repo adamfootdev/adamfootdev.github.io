@@ -485,6 +485,12 @@ nav li a.selected {
     opacity: 1;
 }
 
+.downloadable-image-label {
+    text-align: center;
+    font-size: 90%;
+    color: #a5a5a5 !important;
+}
+
 .image-scroll-container .main-app-icon {
     margin: 8px;
     height: 100px;
